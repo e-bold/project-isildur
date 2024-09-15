@@ -1,0 +1,34 @@
+.choresBox {
+   display: flex;
+   border: 1px solid red;
+   height: 400px;
+   width: 800px;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+}
+
+.choresText {
+  color: brown;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px; /* Add some spacing between the text and the image */
+  height: auto;
+  width: 100%; /* Allow the item to take full width */
+
+  text-align: left;
+}
+
+.choresHeading {
+   text-align: center;
+}
+
+.choresText img {
+   width: 100%; /* Ensure the image scales to fit the container */
+   height: auto;
+   max-width: 200px; /* Limit the image width */
+ }
