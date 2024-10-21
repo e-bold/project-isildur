@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Hello from "./components/Hello"
+import ListGroup from "./components/ListGroup"
 import MovieList from './components/MovieList'
 import ChoresList from './components/ChoresList'
 
@@ -12,9 +10,9 @@ function App() {
   return (
     <>
       <div>
-        <Hello />
         <MovieList />
         <ChoresList />
+        <ListGroup />
       </div>
       
     </>
