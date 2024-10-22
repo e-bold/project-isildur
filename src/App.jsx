@@ -13,6 +13,7 @@ function App() {
         <MovieList />
         <ChoresList />
         <ListGroup />
+
       </div>
       
     </>
